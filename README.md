@@ -16,14 +16,12 @@ Table of contents
         -   [Distribution](#BUDlgVwbXEoGXRw3BxCcpg)
         -   [Web Site](#dFLsZYzrVfmharaNGFR1fw)
         -   [Tutorials](#1P1ii5atqZ0iHTxvZSuZiA)
-
     -   [Sub-Project Coodination Roles](#HfJHw32JKQWyJJyQwTXMJg)
         -   [CI Server Admin](#JX8SaGJ6KX5XplgEi94AqQ)
         -   [Module Evaluation and Selection](#2yDHCnZMAeep8tpLwDeepw)
         -   [Module Policies](#1ewQV2LxMVOinNW3s7jMww)
         -   [Technical Integration
             Coordination](#lINJfMz93On2wxex6fxsFA)
-
 -   [Distribution Components](#F2P12HwEYkgLD9vZGXj47A)
     -   [Documentation](#O4TXysoPBjdaNqb8MP8Ilg)
         -   [DecoratorsAndDocstrings](#1bRmyViWDxma77n4NpIGHQ)
@@ -34,17 +32,14 @@ Table of contents
         -   [LuaPOD](#J7PuYxWOT7tWv9zkmrBAYg)
         -   [lua-ihelp](#KCbTjPXFHPxToxjiNWdY2g)
         -   [WebBook](#rxQGrxqQJPEy51i3kp46CA)
-
     -   [Executables](#wl9ZuglDNg3I3F3yKbmuqw)
         -   [LuaDist](#DCtpKxoiYmc2LGx9joPVmQ)
         -   [LuaRocks](#mpnf0Mb7og9tec28DYMM0g)
         -   [Lua Runtime](#RplRUMdt8bHCleEd5oIOLQ)
         -   [wxLua Front End GUI](#HdSFzjIzmb8blMXNPON1qw)
         -   [ZeroBrane Studio IDE](#784hbs3nobCVZExJLdOMdQ)
-
     -   [Lua Modules](#96BX7BC01Q8PiyfVGjtraQ)
     -   [Module Manifest](#0f5UJ5zKyPevfVO9tjqUEA)
-
 -   [New Kepler Project Web Site (drafts)](#BZtgE3nTwGtsDATySUEfrQ)
     -   [Project History](#3CGPw1Hl62aPk6DBB3g8ww)
 
