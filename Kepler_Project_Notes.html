@@ -1,0 +1,548 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+<meta name="generator" content="NoteCase Pro 3.7.8">
+<TITLE>Kepler Project (renewed)</TITLE>
+</HEAD>
+<BODY>
+<span class="nc_title_part"><div class="nc_title"><A name="KejCXbaTy2EyYDCr6IEtNA"></A><h1>Kepler Project (renewed)</h1>
+</div>
+</span><!--end_title-->
+<hr>
+<h1><A name="TOC"></a>Table of contents</h1>
+
+<UL>
+<LI>
+<A href="#jCUhpITrhJwnBvF3MA9Zuw">Contact</A></LI>
+<LI>
+<A href="#Xf54KGWL0VryXkCRbzhfVw">Project Charter</A><UL>
+<LI>
+<A href="#Oa7AqCnTFKtjjldOyP13ww">Deliverables</A><UL>
+<LI>
+<A href="#BUDlgVwbXEoGXRw3BxCcpg">Distribution</A><UL>
+<LI>
+<A href="#y1bZe6robxjxCVlDPvb4yQ">Bundling of Documentation</A></LI>
+</UL>
+</LI>
+<LI>
+<A href="#dFLsZYzrVfmharaNGFR1fw">Web Site</A></LI>
+<LI>
+<A href="#1P1ii5atqZ0iHTxvZSuZiA">Tutorials</A></LI>
+</UL>
+</LI>
+<LI>
+<A href="#HfJHw32JKQWyJJyQwTXMJg">Sub-Project Coodination Roles</A><UL>
+<LI>
+<A href="#JX8SaGJ6KX5XplgEi94AqQ">CI Server Admin</A></LI>
+<LI>
+<A href="#2yDHCnZMAeep8tpLwDeepw">Module Evaluation and Selection</A></LI>
+<LI>
+<A href="#1ewQV2LxMVOinNW3s7jMww">Module Policies</A></LI>
+<LI>
+<A href="#lINJfMz93On2wxex6fxsFA">Technical Integration Coordination</A></LI>
+</UL>
+</LI>
+</UL>
+</LI>
+<LI>
+<A href="#F2P12HwEYkgLD9vZGXj47A">Distribution Components</A><UL>
+<LI>
+<A href="#O4TXysoPBjdaNqb8MP8Ilg">Documentation</A><UL>
+<LI>
+<A href="#1bRmyViWDxma77n4NpIGHQ">DecoratorsAndDocstrings</A></LI>
+<LI>
+<A href="#QspC3UAfViJPjQ6rUM0AWQ">ExpLua</A></LI>
+<LI>
+<A href="#034qfbE9KpXhcDzXAMRulg">LDoc</A></LI>
+<LI>
+<A href="#mrlLBnGmxUHyoteq8wkhyw">lk.doc</A></LI>
+<LI>
+<A href="#xx1oFAHDuhtMXsPlSDl6Bg">LuaDoc</A></LI>
+<LI>
+<A href="#J7PuYxWOT7tWv9zkmrBAYg">LuaPOD</A></LI>
+<LI>
+<A href="#KCbTjPXFHPxToxjiNWdY2g">lua-ihelp</A></LI>
+<LI>
+<A href="#rxQGrxqQJPEy51i3kp46CA">WebBook</A></LI>
+</UL>
+</LI>
+<LI>
+<A href="#wl9ZuglDNg3I3F3yKbmuqw">Executables</A><UL>
+<LI>
+<A href="#DCtpKxoiYmc2LGx9joPVmQ">LuaDist</A></LI>
+<LI>
+<A href="#mpnf0Mb7og9tec28DYMM0g">LuaRocks</A></LI>
+<LI>
+<A href="#RplRUMdt8bHCleEd5oIOLQ">Lua Runtime</A></LI>
+<LI>
+<A href="#HdSFzjIzmb8blMXNPON1qw">wxLua Front End GUI</A></LI>
+<LI>
+<A href="#784hbs3nobCVZExJLdOMdQ">ZeroBrane Studio IDE</A></LI>
+</UL>
+</LI>
+<LI>
+<A href="#96BX7BC01Q8PiyfVGjtraQ">Lua Modules</A></LI>
+<LI>
+<A href="#0f5UJ5zKyPevfVO9tjqUEA">Module Manifest</A></LI>
+</UL>
+</LI>
+<LI>
+<A href="#BZtgE3nTwGtsDATySUEfrQ">New Kepler Project Web Site (drafts)</A><UL>
+<LI>
+<A href="#3CGPw1Hl62aPk6DBB3g8ww">Project History</A></LI>
+<LI>
+<A href="#o0Sd5k2Pw9Cp9LWbZMIcIA">Lua Resource Links</A><UL>
+<LI>
+<A href="#iR0Rk6kBw2pyoWdXd7LpJw">Lua Code Snippets</A></LI>
+<LI>
+<A href="#R2NLDVWzi9GpNvh0PtBEjg">Lua Documentation</A></LI>
+<LI>
+<A href="#bpWxuxB67yEUc26rQ6IStA">Lua Meta-Links Collections</A></LI>
+<LI>
+<A href="#dxSTqrvG91UbBaHPSc1nyQ">Lua Script Development Tools</A></LI>
+<LI>
+<A href="#1Yqd6Gxscjf1yxdk6hV2Sw">Miscellaneous Lua Resources</A></LI>
+</UL>
+</LI>
+</UL>
+</LI>
+</UL>
+<hr>
+<span class="nc_title_part"><A name="jCUhpITrhJwnBvF3MA9Zuw"></A><h2>Contact</h2>
+</span><!--end_title-->
+Report issues for Lua4Windows batteries: <A href="https://github.com/LuaDist/batteries">https://github.com/LuaDist/batteries</A><BR>
+<BR>
+Mailing lists:<BR>
+<BR>
+<A href="https://groups.google.com/forum/?fromgroups=#!forum/luaforwindows">https://groups.google.com/forum/?fromgroups=#!forum/luaforwindows</A><BR>
+<A href="mailto:luadist@googlegroups.com">luadist@googlegroups.com</A><BR>
+<span class="nc_title_part"><A name="Xf54KGWL0VryXkCRbzhfVw"></A><h2>Project Charter</h2>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="Oa7AqCnTFKtjjldOyP13ww"></A><h3>Deliverables</h3>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="BUDlgVwbXEoGXRw3BxCcpg"></A><h4>Distribution</h4>
+</span><!--end_title-->
+An attempt to begin consolidating consensus points (and those to which I suspect there will be no opposition) on deliverables, derived from the excellent summary by Thijs Schreijer. <BR>
+<BR>
+The Distribution:<BR>
+<BR>
+-- Provide an easier entrance to the Lua way for newbies<BR>
+<BR>
+-- Providing a collection of documentation of the included packages<BR>
+<BR>
+-- A complete Lua starter package: Lua runtime, some executable tools, basic programming libraries (libraries maybe in binary or source format)<BR>
+<BR>
+-- Executable tools included: editor, debugger, package manager, package manager gui<BR>
+<BR>
+-- Some modules will ship; others will be downloadable via LuaDist and the GUI.<BR>
+<BR>
+-- Aimed at quickly setting up an environment<BR>
+<BR>
+-- Works on Windows, Linux/UNIX and Mac x86 environments (although through different downloads)<BR>
+<BR>
+-- Executables and modules installed by default are not a complete development environment, but a 90% starter pack<BR>
+<BR>
+-- it is not intended to be a roll-out package (sys-admin distribution mechanism for many systems), but could be used that way<BR>
+<BR>
+-- Modules included will all be MAINTAINED.<BR>
+<BR>
+<b><span style="color:#ffffff"><span style="background-color:#0000ff"><BR>
+Clipped notes:</span></span></b><BR>
+<BR>
+Steve Donovan: OK, but really highlighting that Peter's LuaDist is the engine behind the distro.  He (after all) has done the hard work of making sure the whole thing builds everywhere.<BR>
+<BR>
+Peter: Good summary, some of the side issues we have agreed to at least partially address in the process is the bundling of documentation of modules and their evaluation using an automated CI process. So basically it is Lua4Windows replacement + dynamic installation of MAINTAINED modules. The aim is to produce a consistent portable Lua distribution that hopefully works well for most intentions (development, distribution, embedding, teaching etc)<BR>
+<BR>
+Andrew S.: Peter's summary says it for me...<BR>
+&quot;Lua4Windows replacement + dynamic installation of MAINTAINED modules. The aim is to  produce a consistent portable Lua distribution that hopefully works well for most intentions (development, distribution, embedding, teaching etc)&quot; <BR>
+<BR>
+<span class="nc_title_part"><A name="y1bZe6robxjxCVlDPvb4yQ"></A><h5>Bundling of Documentation</h5>
+</span><!--end_title-->
+Peter: [S]ome of the side issues we have agreed to at least partially address in the process is the bundling of documentation of modules and their evaluation using an automated CI process.<BR>
+<BR>
+<BR>
+On Wed, Mar 27, 2013 at 3:48 PM, marbux &lt;marbux@gmail.com&gt; wrote:<BR>
+<blockquote>Peter, on a unified format for LuaDist and LuaRocks, do you think that might need further metadata for purposes of classifying modules in the consolidated documentation?</blockquote>
+<BR>
+LuaDist uses short string for description of the package. LuaRocks uses two, a short and long version. None provide keywords which would be useful. Thats all the info you can gather from the info/rockspec files.<BR>
+<BR>
+Additionally LuaRocks does not install any documentation at all, it usually installs just the lua/c modules. LuaDist by default installs to share/[module]/doc and keeps track of the files when they are installed in the info file. That information can be used but the files vary in type and qulity, generally we would be better off if the documentation was in lua module form.<BR>
+<BR>
+<blockquote>I ask because you (IIRC) mentioned at some point that the CI server could automatically update the module documentation stored on the web site and because a separate download of all documentation is contemplated.</blockquote>
+<BR>
+Yes, it could do this. I can make the CI process to run ldoc/whatever and push the output to git/githubpages on any change. So the website could just link to it and we would only need to maintain documentation per module. Everything else could be pushed out and re-generated automatically.<BR>
+<BR>
+<blockquote>My thought being that an alphanumeric sorted list of module names, each with a short one-sentence or so description, would not seem to be an optimal organization of consolidated documentation.</blockquote>
+<BR>
+This can be done now. It is related to the package manifest issue. The short descriptions are also available on every git repository in LuaDist which can be extracted through github api with a bit of bash-foo and curl. The better solution is to simply have a generated manifest of all packages that the CI server keeps up to date*.<BR>
+<BR>
+pd<BR>
+<BR>
+* I will try to generate it as soon as the CI server is set up properly.<BR>
+<BR>
+<span class="nc_title_part"><A name="dFLsZYzrVfmharaNGFR1fw"></A><h4>Web Site</h4>
+</span><!--end_title-->
+For web site candidate draft content <i>see</i> <A href="#BZtgE3nTwGtsDATySUEfrQ">New Kepler Project Web Site</A><BR>
+<BR>
+The Website:<BR>
+<BR>
+Note that some content would be links whilst others would be on-site content. Not yet in any particular order. Much of this section is my own brainstorming, not consensus points.<BR>
+<BR>
+-- Distribution download links<BR>
+<BR>
+-- Installation instructions understandable by lay users<BR>
+<BR>
+-- Consolidated documentation for all shipped modules, perhaps automatically updated by the CI server as needed<BR>
+<BR>
+-- Some method to search module documentation (with frequent updates, depending on web search engines is sub-optimal)<BR>
+<BR>
+-- Tutorials<BR>
+<BR>
+-- Pointers to the Lua Reference Manuals, PIL editions, and other useful online documentation.  <BR>
+<BR>
+-- Contact info: <i>e.g., </i>mailing list subscription URL<BR>
+<BR>
+-- Contribute HowTo<BR>
+<BR>
+-- Issue tracker<BR>
+<BR>
+-- Project About page<BR>
+<BR>
+-- Related Projects (links)<BR>
+<BR>
+-- Other?<BR>
+<BR>
+<span class="nc_title_part"><A name="1P1ii5atqZ0iHTxvZSuZiA"></A><h4>Tutorials</h4>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="HfJHw32JKQWyJJyQwTXMJg"></A><h3>Sub-Project Coodination Roles</h3>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="JX8SaGJ6KX5XplgEi94AqQ"></A><h4>CI Server Admin</h4>
+</span><!--end_title-->
+The CI Server sub-project is coordinated by Andrew Stark, using a new Mac Mini that he contributed, running the <A href="http://jenkins-ci.org/">Jenkins</A> extendable open source <A href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</A> server.<BR>
+<BR>
+<BR>
+Related Links:<BR>
+<BR>
+&nbsp;&nbsp;<A href="#0f5UJ5zKyPevfVO9tjqUEA">Module Manifest</A><BR>
+&nbsp;&nbsp;<A href="#lINJfMz93On2wxex6fxsFA">Technical Integration Coordination</A><BR>
+<span class="nc_title_part"><A name="2yDHCnZMAeep8tpLwDeepw"></A><h4>Module Evaluation and Selection</h4>
+</span><!--end_title-->
+Ryan Puszta has been nominated without objection for the current post of Module Evaluation and Selection Coordinator. This role makes the decisions as to which modules will be included in the distribution. <BR>
+<BR>
+<span class="nc_title_part"><A name="1ewQV2LxMVOinNW3s7jMww"></A><h4>Module Policies</h4>
+</span><!--end_title-->
+Steve Donovan has been nominated without objection for the current post of Module Policy Coordinator. This role is responsible for deciding what tools to use, how to structure them, <i>etc.</i>‌<BR>
+<BR>
+<BR>
+<span class="nc_title_part"><A name="lINJfMz93On2wxex6fxsFA"></A><h4>Technical Integration Coordination</h4>
+</span><!--end_title-->
+Peter Drahoš has been nominated without objection for the role of technical integration coordinator. This role coordinates technical aspects such as continuous integration, tools development, and maintains some of the more complex builds that sometimes need to be done.<BR>
+<BR>
+On 27 March 2013, he posted the following report on progress and plans:<BR>
+<BR>
+Since the discussion has stalled I decided to write up my current plans to move things forward. Hopefully Hisham will bring some news into the project name thread in the mean time.<BR>
+<BR>
+There are two areas I plan to focus my attention. The first and most important task is the setup and management of the CI server which Andrew S. donated last week. Andrew S. has been helping me set up the CI server so that we can now directly test all modules on multiple platforms. So far I have done some initial burn tests to ensure the setup is stable and works as intended, after some crashes and lockups I'm confident that the machine will be reliable. While there is still some work to be done on the integration with Jenkins and GitHub the current list of build targets will be as follows:<BR>
+<BR>
+present:<BR>
+<BR>
+<UL>
+<LI>MinGW 4.8 32bit on Windows XP</LI>
+<LI>MinGW 4.8 64bit on Windows 7</LI>
+<LI>Clang 32bit + MinGW 4.7.1 on Windows 7 (experimental)</LI>
+<LI>MSVC 2012 Decktop Edition on Windows 7</LI>
+<LI>XCode Clang on OSX 10.8</LI>
+<LI>XCode Clang on OSX 10.7</LI>
+<LI>GCC 64bit on Ubuntu 12.10 64bit</LI>
+<LI>Clang 64bit on Ubuntu 12.10 64bit</LI>
+</UL>
+<BR>
+planned:<BR>
+<BR>
+<UL>
+<LI>GCC 32bit on Mint 14 32bit</LI>
+<LI>Clang 32bit on Mint 14 32bit</LI>
+<LI>GCC 64bit on FreeBSD</LI>
+<LI>GCC on ARM Linux (cross compile probably)</LI>
+</UL>
+<BR>
+The CI process will be based on running 'luadist make' on the checked out repositories. So the primary challenge is to make sure LuaDist is running on all platforms. Currently only the MSVC target needs attention and all other targets can build LuaDist just fine. CI builds on the core modules will run daily, all other modules will only run based on git activity.<BR>
+<BR>
+The second step is to focus on integration between LuaDist and LuaRocks. Here I plan to adopt the rockspec format once it is extended to support features such as maintainers, provides and conflicts which is essential for LuaDist. Once a unified format is agreed on LuaDist will install all information about modules into package.path, probably into the package.info.[name] namespace. This will allow LuaRocks and LuaDist to look for each others packages even if require is overloaded into LuaRocks specific paths. After this it should be possible to cleanly provide CI services for LuaRocks too.<BR>
+<BR>
+We still need to agree on how to store tests and documentation and how to create and deliver reports from the CI process.<BR>
+<BR>
+<span class="nc_title_part"><A name="F2P12HwEYkgLD9vZGXj47A"></A><h2>Distribution Components</h2>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="O4TXysoPBjdaNqb8MP8Ilg"></A><h3>Documentation</h3>
+</span><!--end_title-->
+The major documentation technical barriers to be overcome in the Kepler project are:<BR>
+<BR>
+-- For the distribution, a consolidated web site section of all documentation for all modules in (X)HTML format, hopefully laced together by an index page.<BR>
+<BR>
+-- Making that section separately searchable (can't rely on web search engines for pages that will be continuously updated).<BR>
+<BR>
+-- Replicating that section as a module for LuaDist so that users can review documentation before installing modules. <i>Query,</i> whether the search capability can be incorporated in this module? Framed HTML formats such as WebBook are problematic for search indexing purposes because framed pages have no URLs.  <BR>
+<BR>
+-- Setting some minimum documentation requirements for modules, introduced gradually and hopefully followed by others as advantages become apparent.<BR>
+<BR>
+See related page on the wiki at <A href="http://lua-users.org/wiki/DocumentingLuaCode">http://lua-users.org/wiki/DocumentingLuaCode</A>, particularly its <i>Integrating Module Documentation for Distributions</i> section with insightful thoughts by David M. and Hisham.  <BR>
+<BR>
+<A href="http://lua-users.org/wiki/LuaStyleGuide">LuaStyleGuide</A> - has a few notes on commenting.<BR>
+<BR>
+Known existing code documentation tools are listed below (there are likely more).<BR>
+<BR>
+<span class="nc_title_part"><A name="1bRmyViWDxma77n4NpIGHQ"></A><h4>DecoratorsAndDocstrings</h4>
+</span><!--end_title-->
+<A href="http://lua-users.org/wiki/DecoratorsAndDocstrings">DecoratorsAndDocstrings</A> has methods for associating documentation with objects at runtime.<BR>
+<BR>
+<span class="nc_title_part"><A name="QspC3UAfViJPjQ6rUM0AWQ"></A><h4>ExpLua</h4>
+</span><!--end_title-->
+<A href="http://lua-users.org/wiki/ExpLua">ExpLua</A> is both a code comment format and a tool for extracting said comments and exporting HTML, LaTeX, and whatnot. It is freely available for use under the same License as the Lua project, with the usual disclaimers.<BR>
+<BR>
+<span class="nc_title_part"><A name="034qfbE9KpXhcDzXAMRulg"></A><h4>LDoc</h4>
+</span><!--end_title-->
+<A href="https://github.com/stevedonovan/LDoc">https://github.com/stevedonovan/LDoc</A><BR>
+<BR>
+Successor to <A href="#xx1oFAHDuhtMXsPlSDl6Bg">LuaDoc</A>. Compatible with both Lua 5.1 and 5.2.<BR>
+<BR>
+<span class="nc_title_part"><A name="mrlLBnGmxUHyoteq8wkhyw"></A><h4>lk.doc</h4>
+</span><!--end_title-->
+<A href="http://doc.lubyk.org/">Lubyk documentation</A> parser.<BR>
+<BR>
+<span class="nc_title_part"><A name="xx1oFAHDuhtMXsPlSDl6Bg"></A><h4>LuaDoc</h4>
+</span><!--end_title-->
+<A href="http://keplerproject.github.com/luadoc/">http://keplerproject.github.com/luadoc/</A><BR>
+<BR>
+Project is no longer maintained. Successor is <A href="#034qfbE9KpXhcDzXAMRulg">LDoc</A>, which is mostly compatible with LuaDoc input.<BR>
+<BR>
+<span class="nc_title_part"><A name="J7PuYxWOT7tWv9zkmrBAYg"></A><h4>LuaPOD</h4>
+</span><!--end_title-->
+<A href="http://www.lua.inf.puc-rio.br/~sergio/luapod/">LuaPOD</A> translates a POD file into HTML using Lua and the LPeg library.<BR>
+<BR>
+<span class="nc_title_part"><A name="KCbTjPXFHPxToxjiNWdY2g"></A><h4>lua-ihelp</h4>
+</span><!--end_title-->
+<A href="https://github.com/dlaurie/lua-ihelp/blob/master/help.lua">https://github.com/dlaurie/lua-ihelp/blob/master/help.lua</A><BR>
+<BR>
+<span class="nc_title_part"><A name="rxQGrxqQJPEy51i3kp46CA"></A><h4>WebBook</h4>
+</span><!--end_title-->
+<A href="http://www.tecgraf.puc-rio.br/webbook/">http://www.tecgraf.puc-rio.br/webbook/</A><BR>
+<BR>
+WebBook will likely be the most troublesome documentation format to deal with when consolidating documentation. It uses HTML frames, which pose issues for indexing and searching documentation.<BR>
+<BR>
+<span class="nc_title_part"><A name="wl9ZuglDNg3I3F3yKbmuqw"></A><h3>Executables</h3>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="DCtpKxoiYmc2LGx9joPVmQ"></A><h4>LuaDist</h4>
+</span><!--end_title-->
+<A href="http://luadist.org/">LuaDist</A> is a true multi-platform package management system that provides both source and binary repository of modules for the Lua programming language, including the handling of dependencies.<BR>
+<BR>
+<span class="nc_title_part"><A name="mpnf0Mb7og9tec28DYMM0g"></A><h4>LuaRocks</h4>
+</span><!--end_title-->
+<A href="http://luarocks.org/">LuaRocks</A> <p>is a deployment and management system for Lua modules.</p><BR>
+&nbsp;LuaRocks allows you to install Lua modules as self-contained packages called &quot;rocks&quot;, which also contain version dependency information. This information is used both during installation, so that when one rock is requested all rocks it depends on are installed as well, and at run time, so that when a module is required, the correct version is loaded. LuaRocks supports both local and remote repositories, and multiple local rocks trees.<p><BR>
+</p><BR>
+Note Hisham's 24 March 2013 announcement on Lua-L: <BR>
+<BR>
+I'm happy to announce we just reached 250 entries in the LuaRocks<BR>
+repository (that's 250 different things for which you can run<BR>
+'luarocks install thing'). Counting multiple versions of projects,<BR>
+that totals 739 rockspecs so far.<span class="nc_title_part"><A name="RplRUMdt8bHCleEd5oIOLQ"></A><h4>Lua Runtime</h4>
+</span><!--end_title-->
+<span class="nc_title_part"><A name="HdSFzjIzmb8blMXNPON1qw"></A><h4>wxLua Front End GUI</h4>
+</span><!--end_title-->
+Steve Donovan: &quot;I think what we need to do is collect the LfW docs and example trees into a separate repo, and then Peter can merge that into his zip.<BR>
+<BR>
+I've started making a manifest of all the LuaDist packages that are binary compatible - the batteries have about 70 odd, but there's nearly 100 other packages that can be directly installed from the batteries with 'luadist install' (note: this doesn't require a compiler, CMake or git to be installed) So I've started adding tags to this manifest file, and then I can write a little wxLua app which will allow users to download (and _upgrade_) any other compatible LuaDist package.&quot;<BR>
+<BR>
+Add keyword search, as suggested by Andrew?<BR>
+<BR>
+Integrate the wxLua app with ZeroBrane Studio?<BR>
+<BR>
+Peter on Lua version compatibility: <BR>
+<BR>
+LuaDist determines compatibility by walking the dependency list of the package being evaluated. This goes on for any package, not just Lua modules. All Lua modules have a dependency on Lua marked in their dist.info[1] which is used to check what Lua version it is compatible against. For source modules this works flawlessly but binaries are trickier as modules also need to know what ABI they were compiled against, that is currently not implemented but it is already worked on. Additionally modules that are known to be conflicting against other modules can be marked so [2].<BR>
+<BR>
+Any module can be quickly evaluated against the list of installed packages to determine if it is compatible with the current setup, so the answer to your question is yes. However, we can not currently generate binaries for modules that are both Lua 5.1 and 5.2 compatible because of the above mentioned issue. So for now only Lua 5.1 binaries are available.<BR>
+<BR>
+Steve can access all the required functionality through the &quot;dist&quot; module which can be required from Lua directly. This includes functions that evaluate compatibility of the module against already deployed modules [3]. Required dist metadata is only &quot;name&quot; and &quot;version&quot; everything else is optional and any other entries can be present, however all Lua modules also contain dependency &quot;depends = { lua .. }&quot;.<BR>
+<BR>
+All Steve will need to display is a list of modules and their versions with a checkbox indicating if it can be installed into the current destination. Better yet it could use a simple option &quot;filter by compatibility [x]&quot; so you can hide incompatible modules and versions.<BR>
+<BR>
+[1] <A href="https://github.com/LuaDist/luajit/blob/master/dist.info#L18">https://github.com/LuaDist/luajit/blob/master/dist.info#L18</A> - Marks LuaJIT conflict with lua (they share liblua.so)<BR>
+[2] <A href="https://github.com/LuaDist/luafilesystem/blob/master/dist.info#L13">https://github.com/LuaDist/luafilesystem/blob/master/dist.info#L13</A> - Marks luafilesystem compatible witj lua 5.1 and above<BR>
+[3] <A href="https://github.com/LuaDist/luadist-git/blob/master/dist/init.lua#L71">https://github.com/LuaDist/luadist-git/blob/master/dist/init.lua#L71</A> - Dependency check in the install command uses &quot;dist.depends&quot; module<BR>
+<span class="nc_title_part"><A name="784hbs3nobCVZExJLdOMdQ"></A><h4>ZeroBrane Studio IDE</h4>
+</span><!--end_title-->
+<A href="http://studio.zerobrane.com/">ZeroBrane Studio</A> is a is a lightweight Lua IDE with code completion, syntax highlighting, remote debugger, code analyzer, live coding, and debugging support for several Lua engines.<span class="nc_title_part"><A name="96BX7BC01Q8PiyfVGjtraQ"></A><h3>Lua Modules</h3>
+</span><!--end_title-->
+See thread, What packages should be in the base install?, <A href="https://groups.google.com/group/luaforwindows/browse_thread/thread/55d898bc35f6e09c/011a14201ceb5201">https://groups.google.com/group/luaforwindows/browse_thread/thread/55d898bc35f6e09c/011a14201ceb5201</A>. <BR>
+<BR>
+<BR>
+About 70 that LuaDist currently installs automatically; another 100 or so that can be pulled in. -- Steve D.<BR>
+<BR>
+<span class="nc_title_part"><A name="0f5UJ5zKyPevfVO9tjqUEA"></A><h3>Module Manifest</h3>
+</span><!--end_title-->
+Peter S. &quot;Generating and keeping a manifest of modules will be essential. This came up multiple times in the discussions. For this we need the [<A href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</A>] server (contributed by Andrew Stark) which could generate it and keep it up to date (perhaps using a github gist so it does not need to serve it).<BR>
+<BR>
+&quot;This would open up some possibilities LuaDist currently cannot do efficiently. Eg. error help on require when packages are missing could point users to download the missing package using Michal Kottmans intellua. Steve already mentioned the wx based GUI frontend to the installer which could even integrate with ZeroBrane. Keyword search as suggested by Andrew etc. All these would rely on it so it makes sense to start with the manifest.&quot;<BR>
+<BR>
+Steve D. &quot;<A href="https://gist.github.com/stevedonovan/5262203">https://gist.github.com/stevedonovan/5262203</A><BR>
+<BR>
+&quot;This is the result of parsing the output of 'luadist show' for all<BR>
+modules (I'm sure there's a more scientific way). If a package does<BR>
+not have a 'Windows-x86' then it's not included. (There are some<BR>
+packages, like cd-examples, which are pure Lua but marked as<BR>
+'universal-binary')<BR>
+<BR>
+&quot;I've started adding tags to the records - basically this is what the<BR>
+proposed GUI tool will use.<BR>
+<BR>
+&quot;(the parsing script is a real hack)&quot;<BR>
+<BR>
+<span class="nc_title_part"><A name="BZtgE3nTwGtsDATySUEfrQ"></A><h2>New Kepler Project Web Site (drafts)</h2>
+</span><!--end_title-->
+The Website:<BR>
+<BR>
+Note that some would be links whilst others would be independent content. Not yet in any particular order. Much of this section is my own brainstorming, not consensus points.<BR>
+<BR>
+Integrate existing <A href="http://www.keplerproject.org/">Kepler Project web site</A>?<BR>
+<BR>
+-- Distribution download links<BR>
+<BR>
+-- Installation instructions understandable by lay users<BR>
+<BR>
+-- Consolidated documentation for all shipped modules, perhaps automatically updated by the CI server as needed<BR>
+<BR>
+-- Some method to search module documentation (with frequent updates, depending on web search engines is sub-optimal)<BR>
+<BR>
+-- Tutorials<BR>
+<BR>
+-- Pointers to the Lua Reference Manuals, PIL editions, and other useful online documentation. Partly done. See <A href="#o0Sd5k2Pw9Cp9LWbZMIcIA">Lua Resource Links</A>.<BR>
+<BR>
+-- Contact info: <i>e.g., </i>mailing list subscription URL<BR>
+<BR>
+-- Contribute HowTo<BR>
+<BR>
+-- Issue tracker<BR>
+<BR>
+-- Project About page<BR>
+<BR>
+-- Related Projects (links)<BR>
+<BR>
+-- Other?<BR>
+<BR>
+<span class="nc_title_part"><A name="3CGPw1Hl62aPk6DBB3g8ww"></A><h3>Project History</h3>
+</span><!--end_title-->
+<b>TODO: Add history of LFW.</b><BR>
+<BR>
+The Kepler project is the melding of several prior <A href="http://www.lua.org">Lua programming language</A> projects: [i] the former <A href="http://www.keplerproject.org/">Kepler Project</A>; [ii] the Kepler Project's outgrowth, the <A href="http://luaforge.net/projects/http://luaforge.net/projects/">LuaForge Project</A>; [iii] the <A href="https://code.google.com/p/luaforwindows/\">Lua for Windows Project</A>; and [iv] a host of individual executables and Lua modules developed by a multitude of Lua community members.<BR>
+<BR>
+In accord with the meaning of Lua in Portuguese (&quot;the Moon&quot;), the original Lua Kepler Project drew its name from Johannes Kepler (1571-1630), the founder of celestial mechanics. <i>See</i> <A href="http://kepler.nasa.gov/Mission/JohannesKepler/">Johannes Kepler: His Life, His Laws and Times</A>.<BR>
+<BR>
+Here is a lightly edited history of the former Kepler and LuaForge projects by one of its <A href="http://www.keplerproject.org/en/Dev_Team">remaining contributors</A>, <A href="http://hisham.hm/about">Hisham H. Muhammad</A>: <BR>
+<BR>
+<blockquote>The former Kepler Project was envisioned by <A href="http://br.linkedin.com/in/andrecarregal">André Carregal</A> as a research project to make Lua a viable language for web development, in the sense that things like PHP and Ruby are nowadays viable, ie, having the tools so that a coder can concentrate on their app rather than reinventing wheels. So yeah, that goal included a good deal of the &quot;batteries&quot; as well as figuring out distribution issues. <BR>
+<BR>
+A major part of this project, also, was to bring together people who were working seperately in pieces of this puzzle, including the politics to cooperate with pre-Kepler projects such as CGILua, LuaSocket and LuaBinaries. This also included getting funding -- Carregal spent a lot of time working to get government grants for the research project (which was officially a project involving PUC-Rio and the company he worked on as well). <BR>
+<BR>
+People like Fabio and myself (both grad students under Roberto at the time) were funded by this project to work on Lua modules. LuaRocks was created because of Kepler, and I was paid to work on it for two years. LuaForge was also created and its maintenance funded by Kepler. Eventually, we didn't get a grant renewal, plus the overall landscape wasn't much in Kepler's favor (it never took off as a killer app for Lua), and the project mostly died off. <BR>
+<BR>
+Some of us &quot;inherited&quot; the modules we worked on and remained on them as volunteer side-projects, working on our free time. I kept LuaRocks, Fabio kept Orbit and others, and so on. Note that this includes stuff that I perceive as key infrastructure such as LuaFileSystem. Fabio takes care of its github repo, and released version 1.6.2 about 6 months ago. <BR>
+<BR>
+André Carregal, on the other hand, effectively left the project (and I really can't blame him for the burnout, after all the effort he went through -- he's an unsung hero of the Lua ecosystem (or perhaps &quot;sung&quot;, since <A href="http://codingplaces.net/">Yuri's book</A>, which I heartily recommend for insights on the story)). The project was reshaped not as a platform that made &quot;releases&quot; but as a general hub for all those subprojects (the availability of LuaRocks helped to diminished the reliance on one big tarball).<BR>
+<BR>
+The LuaForge shutdown was probably the major effect of the project's twilight. Carregal tried as best as he could to keep the service going, but without funding to hire someone to babysit GForge (and the growing expectations of the Lua userbase), keeping it up with regular shortages wasn't an option. He tried handing over LuaForge to &quot;the community&quot;, but as most of us remember, lots and lots of discussion went on, but nothing as concrete as the old LuaForge ever emerged.</blockquote>
+<BR>
+<span class="nc_title_part"><A name="o0Sd5k2Pw9Cp9LWbZMIcIA"></A><h3>Lua Resource Links</h3>
+</span><!--end_title-->
+This section is borrowed from the NoteCase Pro Help file. It serves as a beginning point and is not intended as anything approaching final form. <i>E.g.,</i> most links not already there should be added to the lua-users wiki and wiki sections linked instead.  <BR>
+<BR>
+There are a multitude of Lua programming resources available on the Web.<BR>
+<BR>
+Links in this section are categorized as follows:<BR>
+<BR>
+<span style="line-height: 120%">&nbsp;<A href="#R2NLDVWzi9GpNvh0PtBEjg">Lua Documentation</A><BR>
+&nbsp;<A href="#iR0Rk6kBw2pyoWdXd7LpJw">Lua Code Snippets</A><BR>
+&nbsp;<A href="#bpWxuxB67yEUc26rQ6IStA">Lua Meta-Links Collections</A><BR>
+&nbsp;<A href="#dxSTqrvG91UbBaHPSc1nyQ">Lua Script Development Tools</A><BR>
+&nbsp;<A href="#1Yqd6Gxscjf1yxdk6hV2Sw">Miscellaneous Lua Resources</A><BR>
+<BR>
+</span><span class="nc_title_part"><A name="iR0Rk6kBw2pyoWdXd7LpJw"></A><h4>Lua Code Snippets</h4>
+</span><!--end_title-->
+<A href="http://rosettacode.org/wiki/Category:Lua">Category: Lua</A>, at RosettaCode.org. Hundreds of Lua code snippets <BR>
+&nbsp;<BR>
+<A href="https://github.com/lua-cookbook/lua-cookbook">Lua Cookbook</A>, at GitHub Social Coding. Incomplete. Includes snippets.<BR>
+&nbsp;<BR>
+<A href="http://snippets.luacode.org/">Lua Snippets</A> at <A href="http://snippets.luacode.org/">http://snippets.luacode.org/</A>. More than 100 high-quality Lua snippets.&nbsp;<BR>
+&nbsp;<BR>
+<A href="http://lua-users.org/wiki/TutorialDirectory">Lua Tutorial Directory</A> at Lua-users.org. Good tutorials, lots of snippets.<BR>
+<BR>
+<A href="http://www.gammon.com.au/forum/bbshowpost.php?bbtopic_id=113">MUSHclient Lua forum</A>. Web forum for a game implementation of Lua, with excellent Lua tutorials and a multitude of code snippets.<BR>
+&nbsp;<BR>
+<A href="http://tinyurl.com/4dykmwo">Pastebin.com</A>. Include &quot;lua&quot; in your search query. <i>Caution:</i>  Some content on Pastebin.com is transitory. Clip and save any useful snippets you find there.  <BR>
+<BR>
+<A href="http://lua-users.org/wiki/SampleCode">Sample Code</A> at the Lua-users.org wiki. Meta-index to sample Lua code on the web site.<BR>
+&nbsp;<BR>
+<A href="http://snipplr.com/all/language/lua">Snipplr</A> Lua code snippets.<BR>
+&nbsp;<BR>
+<A href="http://stackoverflow.com/">Stack Overflow</A>. Answers to about 750 Lua questions as of 25 January, 2011, often including Lua snippets. Include &quot;lua&quot; in your site search query.<BR>
+<BR>
+<span class="nc_title_part"><A name="R2NLDVWzi9GpNvh0PtBEjg"></A><h4>Lua Documentation</h4>
+</span><!--end_title-->
+CE317-Virtual Worlds, by Richard Bartle. Lecture slides giving an excellent high-level overview of Lua v. 5.1. <i>See</i>  slides for lectures 1 and 2. <A href="http://courses.essex.ac.uk/ce/ce317/">http://courses.essex.ac.uk/ce/ce317/</A>. <BR>
+Lua 5.1 is mostly compatible to the Lua 5.2 interpreter currently included in NoteCase Pro.<BR>
+<BR>
+See an overview of the few incompatibilities between Lua 5.1 and Lua 5.2 here: <A href="http://www.lua.org/manual/5.2/manual.html#8">http://www.lua.org/manual/5.2/manual.html#8</A><BR>
+<BR>
+<A href="http://www.lua.org/docs.html">Lua Documentation</A> at Lua.org (official Reference Manual that defines Lua).<BR>
+&nbsp;<BR>
+<A href="http://pgl.yoyo.org/luai/i/about">Luai: Lua Reference Manual Interface</A>. Searchable version of the Lua Reference Manual, as of this writing available only for Lua v. 5.1 but with errata incorporated. <BR>
+&nbsp;<BR>
+<A href="http://www.lua.org/pil/index.html">Programming in Lua</A> (first edition), by Lua's creator. Online book is for Lua v. 5.0, but is mostly relevant to later versions. Often offers more detail and examples than the Lua Reference Manual.<BR>
+&nbsp;<BR>
+<A href="http://www.troubleshooters.com/codecorn/lua/">Litt's Lua Laboratory</A>. Under active construction. A Lua beginner's guide.<BR>
+<BR>
+<A href="https://github.com/lua-cookbook/lua-cookbook/tree/master/src/book/en_US">Lua Cookbook</A>. A reference manual for scripters with some programming experience. Under construction.   <BR>
+<BR>
+<A href="http://lua-users.org/wiki/LuaDocumentation">Lua Documentation</A> at Lua-users.org. <i>See also </i><A href="http://lua-users.org/wiki/FindPage">Find Page</A> (search page for the Lua-users.org wiki); <A href="http://lua-users.org/lists/lua-l/">Lua-L</A> (archives for official Lua mailing list, including archive search).   <BR>
+<BR>
+<A href="http://lua-users.org/wiki/LuaShortReference">Lua 5.1 Short Reference</A>. Two different layouts; one produces four pages and one six pages when printed out.<BR>
+<BR>
+<A href="http://www.indigorose.com/">Indigo Rose Autoplay Media Studio</A>, an application development environment with an outstanding Help file section on use of Lua comprehensible by lay users.<BR>
+<BR>
+<A href="http://lua-users.org/wiki/TutorialDirectory">Lua Tutorial Directory</A> at Lua-users.org.<BR>
+<BR>
+<span class="nc_title_part"><A name="bpWxuxB67yEUc26rQ6IStA"></A><h4>Lua Meta-Links Collections</h4>
+</span><!--end_title-->
+Lua Directory,  <A href="http://lua-users.org/wiki/LuaDirectory">http://lua-users.org/wiki/LuaDirectory</A> (top level directory for all content on the lua-users.org wiki; includes links to many subdirectories).  <BR>
+<BR>
+Lua Links, <A href="http://lua-users.org/wiki/LuaLinks">http://lua-users.org/wiki/LuaLinks</A>.<BR>
+<BR>
+Computers: Programming: Languages: Lua, <A href="http://www.dmoz.org/Computers/Programming/Languages/Lua/">http://www.dmoz.org/Computers/Programming/Languages/Lua/</A>.<BR>
+<BR>
+<span class="nc_title_part"><A name="dxSTqrvG91UbBaHPSc1nyQ"></A><h4>Lua Script Development Tools</h4>
+</span><!--end_title-->
+<A href="http://luaforge.net/softwaremap/trove_list.php?form_cat=65">Lua Integrated Development Environments</A>. A collection of links for supporting IDEs at LuaForge.net.<BR>
+<BR>
+<A href="https://sites.google.com/site/marbux/home/where-lua-is-used#A4r5gY2o5AhiSyW4cEZmdg">Lua IDEs</A> and <A href="https://sites.google.com/site/marbux/home/where-lua-is-used#FxfFj7lhgBJ7HB9xhFHGxg">Text Editors</A>, from <A href="https://sites.google.com/site/marbux/home/where-lua-is-used">Where Lua Is Used</A>, a collection of programs written in or extensible with Lua.<BR>
+<BR>
+&nbsp;<span class="nc_title_part"><A name="1Yqd6Gxscjf1yxdk6hV2Sw"></A><h4>Miscellaneous Lua Resources</h4>
+</span><!--end_title-->
+Lua Unofficial FAQ (uFAQ), <A href="http://luafaq.org/">http://luafaq.org/</A>. Aims to fill in the gaps left by <A href="http://www.lua.org/faq.html">http://www.lua.org/faq.html</A> and <A href="http://lua-users.org/wiki/LuaFaq">http://lua-users.org/wiki/LuaFaq</A>. This is the most recently updated FAQ, addressing both v. 5.1 and v. 5.2. <BR>
+<BR>
+Lua FAQ, <A href="http://lua-users.org/wiki/LuaFaq">http://lua-users.org/wiki/LuaFaq</A>. Another Lua FAQ on the lua-users.org wiki. <BR>
+&nbsp;<BR>
+<A href="http://stackoverflow.com/">Stack Overflow</A>. Answers to about 750 Lua questions as of 25 January, 2011, often including code snippets. Include &quot;lua&quot; in your site search query.<BR>
+<BR>
+<A href="http://the4thwiki.com/lua/index.html">Lua for Python Programmers</A>. Introduction to Lua for experienced Python programmers.<BR>
+&nbsp;<BR>
+<A href="http://phrogz.net/lua/LearningLua_FromJS.html">Learning Lua/from JS</A>. &quot;Know JavaScript, and want to learn Lua? Here's are some quick facts about the similarities and differences.&quot;<BR>
+<BR>
+<A href="http://luatut.com/">The.Lua.Tutorial</A>, An Introduction to Lua, The Crash Course to Lua (Lua for novice programmers). <BR>
+<BR>
+<A href="http://forum.luahub.com/index.php">LuaHUB Discussion Forum</A>. Good online forum for Lua questions and answers.<BR>
+&nbsp;<BR>
+</BODY>
+</HTML>
