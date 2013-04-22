@@ -43,7 +43,7 @@ This project mostly contains the overall alignment of many existing projects and
 
 License
 -------
-All material in this project is license under MIT license terms, which is the most common license in the Lua ecosystem. See [LICENSE.md](LICENSE.md).
+All material in this project is licensed under MIT license terms, which is the most common license in the Lua ecosystem. See [LICENSE.md](LICENSE.md).
 
 Anything contributed to the project will also be assumed to be under the [MIT license](http://opensource.org/licenses/MIT) unless explicitly stated otherwise.
 
