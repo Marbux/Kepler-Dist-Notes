@@ -10,16 +10,16 @@ progress.
 Table of contents
 =================
 
--   [Contact](#Contact)
--   [About](#About)
--   [License](#License)
--   [Project Charter](#Xf54KGWL0VryXkCRbzhfVw)
--   [Distribution Components](#F2P12HwEYkgLD9vZGXj47A)
-    -   [Lua Modules](#96BX7BC01Q8PiyfVGjtraQ)
-    -   [Tools](#wl9ZuglDNg3I3F3yKbmuqw)
-    -   [Module Manifest](#0f5UJ5zKyPevfVO9tjqUEA)
--   [New Kepler Project Web Site (drafts)](#BZtgE3nTwGtsDATySUEfrQ)
-    -   [Project History](#3CGPw1Hl62aPk6DBB3g8ww)
+-   [Contact](#contact)
+-   [About](#about)
+-   [License](#license)
+-   [Project Charter](#project-charter)
+-   [Distribution Components](#distribution-components)
+    -   [Lua Modules](#lua-modules)
+    -   [Tools](#tools)
+    -   [Documentation](#documentation)
+-   [New Kepler Project Web Site](#new-kepler-project-web-site)
+    -   [Project History](#project-history)
 
 * * * * *
 
@@ -67,8 +67,8 @@ See the [Tools document](distribution_tools.md)
 See the [documentation document](distribution_documentation.md)
  
 
-New Kepler Project Web Site (drafts)
-------------------------------------
+New Kepler Project Web Site
+---------------------------
 
 ### Project History
 
