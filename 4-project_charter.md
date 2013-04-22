@@ -19,7 +19,7 @@ mechanism for many systems), but could be used that way
 
 ### Deliverables
    
- - Executable tools included:
+ - Stand-alone executable tools included:
     - editor
     - debugger
     - package manager
