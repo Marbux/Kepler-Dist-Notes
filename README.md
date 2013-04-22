@@ -51,20 +51,20 @@ _NOTE:_ The above mentioned licenses only apply to this project, not to any of t
 
 Project Charter
 ---------------
-See the [project charter document](project_charter.md)
+See the [project charter document](4-project_charter.md)
    
 
 Distribution Components
 -----------------------
 
 ### Lua modules
-See the [Lua modules document](distribution_lua_modules.md)
+See the [Lua modules document](5-1-distribution_lua_modules.md)
 
 ### Tools
-See the [Tools document](distribution_tools.md)
+See the [Tools document](5-2-distribution_tools.md)
 
 ### Documentation
-See the [documentation document](distribution_documentation.md)
+See the [documentation document](5-3-distribution_documentation.md)
  
 
 New Kepler Project Web Site
