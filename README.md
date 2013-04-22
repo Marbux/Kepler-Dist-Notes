@@ -10,9 +10,9 @@ progress.
 Table of contents
 =================
 
--   [Contact](#jCUhpITrhJwnBvF3MA9Zuw)
--   [About]
--   [License]
+-   [Contact](#Contact)
+-   [About](#About)
+-   [License](#License)
 -   [Project Charter](#Xf54KGWL0VryXkCRbzhfVw)
 -   [Distribution Components](#F2P12HwEYkgLD9vZGXj47A)
     -   [Lua Modules](#96BX7BC01Q8PiyfVGjtraQ)
