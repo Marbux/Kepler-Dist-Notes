@@ -20,7 +20,7 @@ because framed pages have no URLs.
 introduced gradually and hopefully followed by others as advantages
 become apparent.  
    
- See related page on the wiki at
+See related page on the wiki at
 [http://lua-users.org/wiki/DocumentingLuaCode](http://lua-users.org/wiki/DocumentingLuaCode),
 particularly its *Integrating Module Documentation for Distributions*
 section with insightful thoughts by David M. and Hisham.   
@@ -38,13 +38,20 @@ likely more).
 
 [DecoratorsAndDocstrings](http://lua-users.org/wiki/DecoratorsAndDocstrings) has
 methods for associating documentation with objects at runtime.  
-   
+
+## AskLua
+
+[AskLua](http://luaforge.net/projects/asklua/) implements a help system 
+for on line use in the interactive interpreter, and for generating 
+documentation in html and printed formats. For a module, it shows several 
+kinds of help: basic, usage, functions list, example, and others. Lua 5.1 
+only.
+
+
 ## ExpLua
 
 [ExpLua](http://lua-users.org/wiki/ExpLua) is both a code comment format
 and a tool for extracting said comments and exporting HTML, LaTeX, and
-
-
 whatnot. It is freely available for use under the same License as the
 Lua project, with the usual disclaimers.  
    
@@ -69,7 +76,14 @@ Lua 5.1 and 5.2.
  Project is no longer maintained. Successor is
 [LDoc](#034qfbE9KpXhcDzXAMRulg), which is mostly compatible with LuaDoc
 input.  
-   
+
+
+## LuaHelp
+
+[http://lua-users.org/wiki/LuaHelp](LuaHelp) is a script that goes 
+through the HTML version of the Lua manual and extracts documentation 
+relevant to functions by name (and more besides). Lua 5.1 only.
+
 
 ## LuaPOD
 
