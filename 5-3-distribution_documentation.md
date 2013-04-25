@@ -85,15 +85,15 @@ through the HTML version of the Lua manual and extracts documentation
 relevant to functions by name (and more besides). Lua 5.1 only.
 
 
+## lua-ihelp
+
+[https://github.com/dlaurie/lua-ihelp/blob/master/help.lua](https://github.com/dlaurie/lua-ihelp/blob/master/help.lua)  
+   
+
 ## LuaPOD
 
 [LuaPOD](http://www.lua.inf.puc-rio.br/~sergio/luapod/) translates a POD
 file into HTML using Lua and the LPeg library.  
-   
-
-## lua-ihelp
-
-[https://github.com/dlaurie/lua-ihelp/blob/master/help.lua](https://github.com/dlaurie/lua-ihelp/blob/master/help.lua)  
    
 
 ## WebBook
